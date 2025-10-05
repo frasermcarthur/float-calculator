@@ -147,3 +147,31 @@ code {
     font-size: 1.2em;
     text-align: right;
 }
+
+input[type="number"] {
+    width: 100%; /* full width on mobile */
+    max-width: 120px; /* optional: max width for larger screens */
+    padding: 12px; /* larger touch area */
+    font-size: 16px; /* readable text */
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.total-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 12px 20px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.main-content {
+    padding-bottom: 80px; /* enough space for the footer */
+}
