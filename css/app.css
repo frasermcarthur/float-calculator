@@ -110,6 +110,14 @@ code {
     max-width: 300px; /* optional: limit width */
 }
 
+.input-row-final {
+    display: flex;
+    justify-content: space-between; /* space between label and input */
+    align-items: center;
+    margin-bottom: 10px; /* space between rows */
+    max-width: 300px; /* optional: limit width */
+}
+
 .input-row label {
     margin-right: 10px;
     flex: 1; /* label takes up remaining space */
@@ -122,5 +130,20 @@ code {
 
 .input-row .total {
     width: 100px; /* fixed width for inputs */
+    text-align: right;
+}
+
+.input-row-final label {
+    margin-right: 10px;
+    flex: 1; /* label takes up remaining space */
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.input-row-final .total {
+    width: 100px; /* fixed width for inputs */
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.2em;
     text-align: right;
 }
