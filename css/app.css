@@ -101,3 +101,26 @@ a, .btn-link {
 code {
     color: #c02d76;
 }
+
+.input-row {
+    display: flex;
+    justify-content: space-between; /* space between label and input */
+    align-items: center;
+    margin-bottom: 10px; /* space between rows */
+    max-width: 300px; /* optional: limit width */
+}
+
+.input-row label {
+    margin-right: 10px;
+    flex: 1; /* label takes up remaining space */
+}
+
+.input-row input {
+    width: 100px; /* fixed width for inputs */
+    text-align: right;
+}
+
+.input-row .total {
+    width: 100px; /* fixed width for inputs */
+    text-align: right;
+}
