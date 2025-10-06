@@ -129,7 +129,7 @@ code {
 }
 
 .input-row .total {
-    width: 100px; /* fixed width for inputs */
+    width: 150px; /* fixed width for inputs */
     text-align: right;
 }
 
@@ -172,8 +172,22 @@ input[type="number"] {
     z-index: 1000;
 }
 
+.cash-denom-summary {
+    margin-right: 10px;
+    flex: 1;
+    text-align: right;
+}
+
 .main-content {
     padding-bottom: 80px; /* enough space for the footer */
+}
+
+.warning {
+    color: red;
+}
+
+.success {
+    color: green;
 }
 
 
